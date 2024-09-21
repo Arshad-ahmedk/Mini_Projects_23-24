@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phonebook</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Phonebook</h1>
+            <button id="theme-toggle">Toggle Dark/Light Mode</button>
+        </header>
+
+        <main>
+            <section class="contact-form">
+                <h2>Add Contact</h2>
+                <form id="contact-form">
+                    <input type="text" id="name" placeholder="Name" required>
+                    <input type="text" id="phone" placeholder="Phone" required>
+                    <select id="tags" multiple>
+                        <option value="Friend">Friend</option>
+                        <option value="Work">Work</option>
+                        <option value="Family">Family</option>
+                    </select>
+                    <button type="submit">Add Contact</button>
+                </form>
+            </section>
+
+            <section class="contact-list">
+                <h2>Contact List</h2>
+                <input type="text" id="search" placeholder="Search by name or phone">
+                <ul id="contact"></ul>
+            </section>
+        </main>
+        
+        <section class="import-export">
+            <h2>Import/Export Contacts</h2>
+            <input type="file" id="import-file" accept=".csv">
+            <button id="export-btn">Export to CSV</button>
+        </section>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

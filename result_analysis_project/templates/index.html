@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Result Analysis</h1>
+        <form method="POST" enctype="multipart/form-data">
+            <label for="department">Department:</label>
+            <input type="text" id="department" name="department" required>
+
+            <label for="year">Year of Study:</label>
+            <input type="text" id="year" name="year" required>
+
+            <label for="section">Section:</label>
+            <input type="text" id="section" name="section" required>
+
+            <label for="exam_type">Exam Type:</label>
+            <select id="exam_type" name="exam_type" required>
+                <option value="CIE1">CIE1 (50 Marks)</option>
+                <option value="CIE2">CIE2 (50 Marks)</option>
+                <option value="Model Examination">Model Examination (100 Marks)</option>
+            </select>
+
+            <label for="marksheet">Marksheet (CSV file):</label>
+            <input type="file" id="marksheet" name="marksheet" accept=".csv" required>
+
+            <button type="submit">Generate Report</button>
+        </form>
+    </div>
+</body>
+</html>
