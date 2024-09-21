@@ -65,6 +65,7 @@ phonebook-app/
 │   └── styles.css              # CSS for styling the app
 └── templates/
     └── index.html              # Frontend HTML template
+```
 
 ## Functionality Breakdown
 
