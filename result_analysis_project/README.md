@@ -45,19 +45,16 @@ The web application is designed to handle multiple exams such as CIE1, CIE2, and
 
 1. **Clone the Repository**:
 
-```bash
-git clone https://github.com/your-repo/college-result-analysis.git
-cd college-result-analysis```
+```git clone https://github.com/your-repo/college-result-analysis.git```
+```cd college-result-analysis```
 
 2. **Install Dependencies**: You can install the necessary dependencies by running the following command:
 
-```bash
-pip install -r requirements.txt```
+```pip install -r requirements.txt```
 
 3. **Run the Flask Application**: Start the Flask web server:
 
-```bash
-python app.py```
+```python app.py```
 
 4. **Access the Web App**: Open your browser and go to:
 
