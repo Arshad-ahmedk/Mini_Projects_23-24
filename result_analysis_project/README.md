@@ -46,8 +46,9 @@ The web application is designed to handle multiple exams such as CIE1, CIE2, and
 
 1. **Clone the Repository**:
 
-```git clone https://github.com/your-repo/college-result-analysis.git```
-```cd college-result-analysis```
+```git clone https://github.com/Arshad-ahmedk/Mini_Projects_23-24.git```
+
+```cd Mini_Projects_23-24/college-result-analysis```
 
 2. **Install Dependencies**: You can install the necessary dependencies by running the following command:
 
