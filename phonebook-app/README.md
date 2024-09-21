@@ -51,7 +51,7 @@ To run this project locally, you'll need to have the following installed:
 5. **Access the application**:
     Open your web browser and navigate to:
     ```
-    http://192.168.120.41:5000
+    http://127.0.0.1:5000
     ```
 
 ## Project Structure
