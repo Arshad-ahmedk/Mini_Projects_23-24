@@ -28,12 +28,12 @@ To run this project locally, you'll need to have the following installed:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/phonebook-app.git
+    git clone https://github.com/Arshad-ahmedk/Mini_Projects_23-24.git
     ```
 
 2. **Navigate to the project directory**:
     ```bash
-    cd phonebook-app
+    cd Mini_Projects_23-24/phonebook-app
     ```
 
 3. **Install the required Python dependencies**:
