@@ -23,13 +23,13 @@ The web application is designed to handle multiple exams such as CIE1, CIE2, and
 
 ## Project Structure
 ```bash
-├── app.py                 # Main Flask application
+├── app.py                 			# Main Flask application
 ├── templates
-│   └── index.html         # Frontend HTML form for uploading the CSV and entering data
-├── static                 # For additional static files (like CSS)
-├── result_analysis_report.docx # Generated output (not included in repo)
-├── requirements.txt       # Python dependencies
-└── README.md              # This readme file
+│   └── index.html         			# Frontend HTML form for uploading the CSV and entering data
+├── static                 			# For additional static files (like CSS)
+├── result_analysis_report.docx 		# Generated output (not included in repo)
+├── requirements.txt       			# Python dependencies
+└── README.md              			# This readme file
 ```
 
 ## Setup and Installation
